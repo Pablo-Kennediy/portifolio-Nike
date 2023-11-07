@@ -5,10 +5,19 @@
     font-family: monospace;
     font-size: large;
 }
-}
-h1{
+
+h1 {
     font-size: larger;
     font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.336);
+    max-width: 600px;
+    padding: 5px;
+}
+p{
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.336);
+    max-width: 600px;
+    padding: 5px;
 }
 body {
     background-image: url('fdmain01.png');
@@ -16,10 +25,11 @@ body {
     background-size: cover;
     color: white;
 }
+
 main {
-    margin: 25px;
-    margin-bottom: 65vh;
+
 }
+
 img {
     display: inline-block;
     max-width: 120px;
@@ -27,14 +37,17 @@ img {
     margin: auto;
     margin-bottom: 25px;
 }
+
 button {
     border-radius: 360px;
     width: 80px;
 }
+
 button picture img {
     width: 50px;
     margin: 5px;
 }
+
 button#ixd01 {
     margin: auto;
     margin-top: 50vh;
@@ -43,38 +56,57 @@ button#ixd01 {
     color: black;
     background-color: white;
 }
-section{
+
+section {
     border-radius: 20px;
     margin: 15px;
     padding: 15px;
 }
+
 section#forMain {
     background-image: url("fdMain.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
-label{
+section#forMain2 {
+    background-image: url("Grasshopper.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#forMain3 {
+    background-image: url("dioMe.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
     float: right;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.774);
     padding: 5px;
     border-radius: 80px;
 }
+
 article#primeiro {
     font-size: xx-large;
     font-family: cursive;
     width: 100%;
 }
+
 .projetos0 {
     display: contents;
     width: 100%;
     margin: auto;
 }
+
 article {
     justify-content: space-around;
     align-items: center;
 }
+
 footer {
     text-align: center;
     font-size: larger;
@@ -82,9 +114,11 @@ footer {
     padding: 10px;
     padding-bottom: 80px;
 }
+
 footer a {
     color: white;
 }
-footer > article {
-background-color: rgba(0, 0, 0, 0.432);
+
+footer>article {
+    background-color: rgba(0, 0, 0, 0.432);
 }
