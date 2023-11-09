@@ -8,17 +8,17 @@
 
 h1 {
     font-size: larger;
-    font-family: cursive;
     background-color: rgba(0, 0, 0, 0.336);
     max-width: 600px;
     padding: 5px;
 }
-p{
-    font-family: cursive;
+
+p {
     background-color: rgba(0, 0, 0, 0.336);
     max-width: 600px;
     padding: 5px;
 }
+
 body {
     background-image: url('fdmain01.png');
     background-repeat: no-repeat;
@@ -26,9 +26,7 @@ body {
     color: white;
 }
 
-main {
-
-}
+main {}
 
 img {
     display: inline-block;
@@ -69,12 +67,18 @@ section#forMain {
     background-repeat: no-repeat;
     background-size: cover;
 }
-section#forMain2 {
+
+#forMain2 {
     background-image: url("Grasshopper.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 15px;
+    color: peachpuff;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.247);
 }
+
 section#forMain3 {
     background-image: url("dioMe.png");
     background-attachment: fixed;
