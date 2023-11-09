@@ -26,14 +26,17 @@ body {
     color: white;
 }
 
-main {}
-
 img {
     display: inline-block;
     max-width: 120px;
     border-radius: 360px;
     margin: auto;
     margin-bottom: 25px;
+}
+
+picture#picturePerfil {
+    float: right;
+    margin: 15px;
 }
 
 button {
@@ -89,7 +92,9 @@ section#forMain3 {
 label {
     float: right;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.774);
+    padding: 1px;
+    border: 1px white solid;
+    background-color: rgba(51, 51, 51, 0.774);
     padding: 5px;
     border-radius: 80px;
 }
