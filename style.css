@@ -11,6 +11,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.336);
     max-width: 600px;
     padding: 5px;
+    margin: 10px;
 }
 
 p {
@@ -34,11 +35,6 @@ img {
     margin-bottom: 25px;
 }
 
-picture#picturePerfil {
-    float: right;
-    margin: 15px;
-}
-
 button {
     border-radius: 360px;
     width: 80px;
@@ -59,46 +55,42 @@ button#ixd01 {
 }
 
 section {
-    border-radius: 20px;
-    margin: 15px;
-    padding: 15px;
+    border-radius: 360px;
+}
+section#cursando {
+    margin-top: 15px;
 }
 
-section#forMain {
-    background-image: url("fdMain.png");
+.forMain {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 800px;
+}
+#forMain {
+    background-image: url("fdMain.png"); 
 }
 
 #forMain2 {
     background-image: url("Grasshopper.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 15px;
     color: peachpuff;
     font-size: larger;
     background-color: rgba(0, 0, 0, 0.247);
 }
 
-section#forMain3 {
+#forMain3 {
     background-image: url("dioMe.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+#cabechalho {
 
-label {
-    text-align: center;
-    float: right;
-    margin: auto;
-    padding: 1px;
-    border: 1px white solid;
-    background-color: rgba(51, 51, 51, 0.774);
-    padding: 5px;
-    border-radius: 80px;
 }
+picture#picturePerfil {
+    margin: 15px;
+}
+/* label {
+
+} */
 
 article#primeiro {
     font-size: xx-large;
@@ -124,9 +116,16 @@ footer {
     padding: 10px;
     padding-bottom: 80px;
 }
+.footer{
+    margin: auto;
+    max-width: 600px;
+}
 
 footer a {
     color: white;
+}
+picture#links img{
+    width: 35px;
 }
 
 footer>article {
