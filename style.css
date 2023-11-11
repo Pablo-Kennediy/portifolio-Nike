@@ -48,7 +48,6 @@ button picture img {
 button#ixd01 {
     margin: auto;
     margin-top: 50vh;
-    margin-left: 35%;
     width: 300px;
     color: black;
     background-color: white;
@@ -65,7 +64,6 @@ section#cursando {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 800px;
 }
 #forMain {
     background-image: url("fdMain.png"); 
@@ -83,14 +81,11 @@ section#cursando {
     background-image: url("dioMe.png");
 }
 #cabechalho {
-
+    display: flex;
 }
 picture#picturePerfil {
     margin: 15px;
 }
-/* label {
-
-} */
 
 article#primeiro {
     font-size: xx-large;
