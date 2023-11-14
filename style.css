@@ -1,21 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: monospace;
-    font-family: monospace;
-    font-size: large;
+    border-radius: 32px;
 }
 
 h1 {
     font-size: larger;
-    background-color: rgba(0, 0, 0, 0.336);
     max-width: 600px;
     padding: 5px;
     margin: 10px;
 }
 
 p {
-    background-color: rgba(0, 0, 0, 0.336);
     max-width: 600px;
     padding: 5px;
 }
@@ -25,6 +21,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+}
+main{
+    padding: 25px;
 }
 
 img {
@@ -54,8 +53,15 @@ button#ixd01 {
 }
 
 section {
-    border-radius: 360px;
+    margin: auto;
+    margin-bottom: 250px;
+    max-width: 1000px;
+    min-height: 900px;
+    font-family: monospace;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.336);
 }
+
 section#cursando {
     margin-top: 15px;
 }
@@ -65,8 +71,9 @@ section#cursando {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #forMain {
-    background-image: url("fdMain.png"); 
+    background-image: url("fdMain.png");
 }
 
 #forMain2 {
@@ -80,9 +87,11 @@ section#cursando {
 #forMain3 {
     background-image: url("dioMe.png");
 }
+
 #cabechalho {
     display: flex;
 }
+
 picture#picturePerfil {
     margin: 15px;
 }
@@ -91,12 +100,6 @@ article#primeiro {
     font-size: xx-large;
     font-family: cursive;
     width: 100%;
-}
-
-.projetos0 {
-    display: contents;
-    width: 100%;
-    margin: auto;
 }
 
 article {
@@ -111,15 +114,11 @@ footer {
     padding: 10px;
     padding-bottom: 80px;
 }
-.footer{
-    margin: auto;
-    max-width: 600px;
-}
-
 footer a {
     color: white;
 }
-picture#links img{
+
+picture#links img {
     width: 35px;
 }
 
