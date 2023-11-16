@@ -3,6 +3,9 @@
     padding: 0;
     border-radius: 32px;
 }
+ul{
+    list-style: none;
+}
 
 h1 {
     font-size: larger;
@@ -17,7 +20,8 @@ p {
 }
 
 body {
-    background-image: url('fdmain01.png');
+    /* background-image: url('fdmain01.png'); */
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -34,22 +38,10 @@ img {
     margin-bottom: 25px;
 }
 
-button {
+ img {
     border-radius: 360px;
-    width: 80px;
-}
-
-button picture img {
-    width: 50px;
+    max-width: 100px;
     margin: 5px;
-}
-
-button#ixd01 {
-    margin: auto;
-    margin-top: 50vh;
-    width: 300px;
-    color: black;
-    background-color: white;
 }
 
 section {
@@ -76,7 +68,7 @@ section#cursando {
     background-image: url("fdMain.png");
 }
 
-#forMain2 {
+#Grasshopper {
     background-image: url("Grasshopper.png");
     padding: 15px;
     color: peachpuff;
@@ -84,7 +76,7 @@ section#cursando {
     background-color: rgba(0, 0, 0, 0.247);
 }
 
-#forMain3 {
+#DigitalInnovationOne {
     background-image: url("dioMe.png");
 }
 
