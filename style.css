@@ -16,7 +16,7 @@ h1 {
 }
 
 p {
-    max-width: 600px;
+    /* max-width: 600px; */
     padding: 5px;
     text-align: center;
         font-size: larger;
