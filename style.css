@@ -39,20 +39,21 @@ img {
     margin-bottom: 25px;
 }
 
-
 section {
     margin: auto;
     font-family: monospace;
     font-size: large;
     background-color: rgba(0, 0, 0, 0.719);
 }
-.intro{
+
+.intro {
     display: flex;
     border: solid white 2px;
     padding: auto;
     margin: auto;
     max-width: 380px;
 }
+
 section#cursando {
     margin-top: 15px;
 }
