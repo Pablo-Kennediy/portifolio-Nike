@@ -5,7 +5,11 @@
 }
 
 ul {
+    margin: auto;
     list-style: none;
+}
+.ul{
+    display: flex;
 }
 
 h1 {
@@ -41,6 +45,7 @@ img {
 
 section {
     margin: auto;
+    padding: 15px;
     font-family: monospace;
     font-size: large;
     background-color: rgba(0, 0, 0, 0.719);
@@ -48,7 +53,6 @@ section {
 
 .intro {
     display: flex;
-    border: solid white 2px;
     padding: auto;
     margin: auto;
     max-width: 380px;
@@ -81,9 +85,21 @@ section#cursando {
 #cabechalho {
     display: flex;
 }
-
+picture img{
+    display: block;
+}
 picture#picturePerfil {
     margin: 15px;
+}
+picture#pfandlogocode img{
+    max-width: 50px;
+    margin: auto;
+}
+picture#pfandlogocode{
+    display: flex;
+}
+.pictureFlex {
+    display: flex;
 }
 
 article#primeiro {
