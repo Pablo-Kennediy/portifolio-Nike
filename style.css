@@ -4,32 +4,25 @@
     border-radius: 32px;
 }
 
+/* div#img{
+    background-position: right, right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+h1, h2 {
+    margin-top: 25px;
+}
+p{
+    margin: 15px;
+}
 ul {
     margin: auto;
     list-style: none;
 }
 
-.ul {
-    display: flex;
-}
 li{
     padding: 10px;
-}
-
-h1 {
-    font-size: xx-large;
-    max-width: 600px;
-    padding: 10px;
-}
-h2{
-    font-size: x-large;
-}
-
-p {
-    margin: auto;
-    padding: 10px;
-    text-align: justify;
-    font-size: larger;
 }
 
 body {
@@ -53,10 +46,9 @@ img {
 
 section {
     margin: auto;
-    padding: 15px;
-    font-family: monospace;
-    font-size: large;
-    background-color: rgba(0, 0, 0, 0.719);
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
 }
 
 .intro {
@@ -70,13 +62,7 @@ section#cursando {
     margin-top: 15px;
 }
 
-.forMain {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#forMain {
+.fogaça {
     background-image: url("fdMain.png");
 }
 
@@ -108,10 +94,6 @@ picture#pfandlogocode img {
 }
 
 picture#pfandlogocode {
-    display: flex;
-}
-
-.pictureFlex {
     display: flex;
 }
 
