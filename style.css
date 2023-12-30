@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
     border-radius: 32px;
 }
@@ -49,7 +49,6 @@ section {
     padding: 25px;
     justify-content: center;
     text-align: center;
-    max-width: 500px;
 }
 
 .intro {
@@ -134,4 +133,7 @@ picture#links img {
 
 footer>article {
     background-color: rgba(0, 0, 0, 0.432);
+}
+button{
+    margin: auto;
 }
